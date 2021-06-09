@@ -1,0 +1,36 @@
+.topNav {
+  height: 60px;
+  display: flex
+  justify-content: space-between;
+  padding: 2.3rem 2rem;
+  background-color: black;
+  z-index: 100;
+  position: fixed
+  width: 100%;
+}
+
+.itemLink 
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none
+  font-style: italic;
+}
+
+.navMenu {
+  display: flex;
+  align-items center;
+}
+
+.navMenuLinks {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%
+  cursor: pointer;
+  text-decoration: none;
+}
