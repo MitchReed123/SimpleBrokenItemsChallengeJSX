@@ -14,10 +14,10 @@ function App() {
   //                                                                              //
   //////////////////////////////////////////////////////////////////////////////////
 
-  //once you are done with the "Broken APIS Section" take the style tag off of the Syntax Errors part.
+  //once you are done with the "Broken APIs Section" take the style tag off of the Syntax Errors part.
   return (
     <div className="App">
-      <section style={{ display: "none" }}>
+      <section>
         <h1>Broken APIS Section</h1>
         {/* <section>
         <ApiOne />
@@ -26,7 +26,7 @@ function App() {
         <ApiTwo />
       </section> */}
       </section>
-      <section>
+      <section style={{ display: "none" }}>
         <h1>Syntax Errors</h1>
         {/* <FirstOne /> */}
       </section>
