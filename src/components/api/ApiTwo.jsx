@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const ApiTwo = () => {
   const [stuff, setStuff] = useState([]);
-
+  //want to be displaying title, actors, awards, boxoffice, director, genre, plot, posterurl, rating, released, imdbrating, and morerating so 12 properties
   const apikey = "d4a805b3";
   //there is a limit of 1000 calls per day i think so that shouldnt be the error
   const url = "http://www.omdbapi.com/?apikey=${apikey}&t=Avatar";

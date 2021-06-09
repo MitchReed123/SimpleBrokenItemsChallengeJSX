@@ -19,6 +19,7 @@ const UnsplashFetch = () => {
   useEffect(() => {
     fetchit;
   });
+  
   return (
     <div>
       <h1>Unsplash<h1>
