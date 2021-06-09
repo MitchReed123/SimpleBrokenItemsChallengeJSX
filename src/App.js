@@ -1,7 +1,12 @@
 import "./App.css";
+//               STYLING SYNTAX IMPORTS
 // import FirstOne from "./components/RegularItems/FirstOne";
+import Card from "./components/RegularItems/Card";
+//                    API IMPORTS
 // import ApiTwo from "./components/api/ApiTwo";
 // import ApiOne from "./components/api/ApiOne";
+// import ApiThree from "./components/api/ApiThree";
+// import UnsplashFetch from "./components/api/ApiFour";
 
 // if you need hints for any of the problems just message me
 
@@ -25,10 +30,18 @@ function App() {
         {/* <section>
         <ApiTwo />
       </section> */}
+        {/* <section>
+          <ApiThree />
+        </section> */}
+        {/* <section>
+          <UnsplashFetch />
+        </section> */}
       </section>
+      {/* TAKE OFF THIS STYLE ONCE YOU GET TO THIS POINT  */}
       <section style={{ display: "none" }}>
         <h1>Syntax Errors</h1>
         {/* <FirstOne /> */}
+        {/* <Card /> */}
       </section>
     </div>
   );
